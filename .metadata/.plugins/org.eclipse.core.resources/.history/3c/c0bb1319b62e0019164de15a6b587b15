@@ -1,0 +1,27 @@
+package practise.java;
+
+public class Operator_Java {
+	
+static int a=1;
+	
+	private static void postfix() {
+		
+		a++;
+	}
+
+		
+	public static void main(String[] args) {
+		Operator_Java op= new Operator_Java();
+		
+		postfix();
+		
+		System.out.println();
+		System.out.println();
+	
+		
+	}
+
+	
+	
+
+}

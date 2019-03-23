@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="learnAttributes(failed)">
+    <parameter name="uname" value="demosalesmanager"/>
+    <parameter name="pswd" value="crmsfa"/>
+    <parameter name="url" value="http://leaftaps.com/opentaps/control/main"/>
+    <classes>
+      <class name="week5.day1.Learningtestng.Edit_Lead">
+        <methods>
+          <include name="edit_Lead"/>
+          <include name="login_Confiquaration"/>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- week5.day1.Learningtestng.Edit_Lead -->
+      <class name="week5.day1.Learningtestng.Create_Lead">
+        <methods>
+          <include name="create_lead" invocation-numbers="0"/>
+          <include name="setFileName"/>
+          <include name="login_Confiquaration"/>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- week5.day1.Learningtestng.Create_Lead -->
+    </classes>
+  </test> <!-- learnAttributes(failed) -->
+</suite> <!-- Failed suite [Suite] -->

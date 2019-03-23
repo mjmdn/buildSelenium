@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="classes">
+  <test thread-count="2" name="Paraallel" parallel="classes">
+    <classes>
+      <class name="week5.day1.Learningtestng.Create_Lead"/>
+      <class name="week5.day1.Learningtestng.Edit_Lead"/>
+      <class name="week5.day1.Learningtestng.Duplicate_Leads"/>
+      <class name="week5.day1.Learningtestng.Delete_Lead"/>
+    
+    </classes>
+  </test> <!-- Paraallel -->
+</suite> <!-- Suite -->

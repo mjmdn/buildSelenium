@@ -1,0 +1,50 @@
+package practice.java;
+
+public class Operator_Java {
+	 int a=1;
+	 
+	
+	private static void postfix() {
+		
+		
+		
+		//System.out.println(a++);
+		//System.out.println(++a);
+	}
+
+	
+	public  void prefix() {
+		for(int i=1;i<=10;i++){  
+	        if(i==5){  
+	            //using continue statement  
+	            continue;//it will skip the rest statement 
+	            
+	        }  
+	        System.out.println(i);  
+	        System.out.println("test");
+	    }  
+	}  
+		
+	
+		
+	public static void main(String[] args) {
+		Operator_Java op= new Operator_Java();
+		//Operator_Java op1= new Operator_Java();
+		
+		//postfix();
+		op.prefix();
+	
+		
+		
+		
+	
+		
+	}
+
+
+	
+
+	
+	
+
+}

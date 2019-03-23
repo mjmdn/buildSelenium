@@ -1,0 +1,45 @@
+package pages;
+
+import javax.print.attribute.standard.RequestingUserName;
+
+import base_confiq.Base_Config;
+
+public class Find_Leads extends Base_Config {
+	
+public Find_Leads()
+{
+	
+}
+
+
+public Find_Leads clickEmailTab()
+{
+	driver.findElementByXPath("(//span[@class='x-tab-strip-text '])[3]").click();
+	return this;
+}
+
+
+public Find_Leads enterEmail_Address(String email)
+{
+	driver.findElementByName("emailAddress").sendKeys(email);
+	return this;
+}
+
+
+public Find_Leads click_FindLead_Button() throws InterruptedException
+{
+	driver.findElementByXPath("//button[text()='Find Leads']").click();
+	Thread.sleep(5000);
+	return this;
+}
+
+
+public ViewLeads click_FirstValue() throws InterruptedException
+{
+	String getfirstLead_Id = driver.findElementByXPath("(//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a)[1]").getText();
+	driver.findElementByXPath("(//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a)[1]").click();
+	Thread.sleep(2000);
+	return new ViewLeads();
+}
+
+}

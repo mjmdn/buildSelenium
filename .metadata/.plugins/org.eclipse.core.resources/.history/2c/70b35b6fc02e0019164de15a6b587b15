@@ -1,0 +1,44 @@
+package practise.java;
+
+public class Operator_Java {
+	 int a=1;
+	
+	private static void postfix() {
+		
+		
+		
+		//System.out.println(a++);
+		//System.out.println(++a);
+	}
+
+	
+	public  void prefix() {
+		int i=1;  
+		do{  
+		System.out.println(i);  
+		i++;  
+		}while(i<=10); 
+		
+	}
+		
+	public static void main(String[] args) {
+		Operator_Java op= new Operator_Java();
+		//Operator_Java op1= new Operator_Java();
+		
+		//postfix();
+		op.prefix();
+		op.prefix();
+		
+		
+		
+	
+		
+	}
+
+
+	
+
+	
+	
+
+}

@@ -1,0 +1,14 @@
+package testCases;
+
+import org.testng.annotations.Test;
+
+public class Creaet_Lead {
+
+	@Test(dataProvider="inputdata")
+	public void CreateLeads()
+	{
+		
+		
+		
+	}
+}

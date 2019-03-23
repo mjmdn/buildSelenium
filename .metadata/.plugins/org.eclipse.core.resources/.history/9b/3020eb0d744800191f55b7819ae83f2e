@@ -1,0 +1,14 @@
+package pages;
+
+import base_confiq.Base_Config;
+
+public class CreateLeads extends Base_Config{
+	
+	public CreateLeads() {
+		
+	}
+	
+	
+	
+
+}

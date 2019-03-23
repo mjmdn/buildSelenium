@@ -1,0 +1,13 @@
+package pages;
+
+import base_confiq.Base_Config;
+
+public class Find_Leads extends Base_Config {
+	
+public Find_Leads()
+{
+	
+}
+
+
+}

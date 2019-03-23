@@ -1,0 +1,21 @@
+package testCases;
+
+import base_confiq.Base_Config;
+import pages.LoginPage;
+
+public class Delete_Lead_TestCase extends Base_Config {
+	
+	
+	public void delet_Lead()
+	{
+
+	new LoginPage()
+	.enterUserName(uName)
+	.enterPassword(pswd)
+	.clickLoginButton()
+	.clickCrmfaLink()
+	.CickLeadLink()
+	.clickFindLead()
+	.clickEmailTab()
+	
+}

@@ -1,0 +1,23 @@
+package testCase_Implements;
+
+
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+
+
+public class Hooks  {
+	@Before
+	public void launch_browser() {
+		System.out.println("Function initiated");
+		
+		
+	}
+    
+	
+	@After
+	public void close_Window()
+	{
+		//driver.close();
+		System.out.println("Completed");
+	}
+}

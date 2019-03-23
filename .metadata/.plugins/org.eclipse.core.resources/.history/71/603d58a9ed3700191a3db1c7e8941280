@@ -1,0 +1,29 @@
+package week3.day2;
+
+import java.util.List;
+
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CR_Learining_List_Set {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "./drivers/Chromedriver/chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://erail.in/");
+		driver.findElementById("txtStationFrom").clear();
+		driver.findElementById("txtStationFrom").sendKeys("MAS",Keys.TAB);
+		driver.findElementById("txtStationTo").clear();
+		driver.findElementById("txtStationTo").sendKeys("TVR",Keys.TAB);
+		driver.findElementById("chkSelectDateOnly").click();
+		List<WebElement> findTrains = driver.findElementsByXPath("//table[contains(@class,'DataTable TrainList')]//tr");
+		System.out.println(findTrains.size());
+		for (WebElement trainNames : findTrains) {
+			System.out.println(trainNames);
+			
+		}
+		
+	}
+
+}

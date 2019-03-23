@@ -1,0 +1,23 @@
+package practise.java;
+
+public class Variable  {
+	int a= 1;
+    static int c=10;
+	public  void localVariable()
+	{
+		int a= 10;
+		
+		 c++;
+		
+		System.out.println(c);
+	}
+	public static void main(String[] args) {
+		
+		Variable v= new Variable();
+		Variable v1= new Variable();
+		 v.localVariable();
+		 v.localVariable();
+		 v1.localVariable();
+		
+	}
+}

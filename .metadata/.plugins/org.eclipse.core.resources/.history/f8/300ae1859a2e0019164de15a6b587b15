@@ -1,0 +1,17 @@
+package practise.java;
+
+public class Variable  {
+	int b= 20;
+	
+	public  void localVariable()
+	{
+		int a= 10;
+		
+		int c= a+b;
+	}
+	public static void main(String[] args) {
+		
+		Variable v= new Variable();
+		 v.localVariable();
+	}
+}

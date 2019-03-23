@@ -1,0 +1,27 @@
+package testCases;
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import base_confiq.Base_Config;
+import pages.LoginPage;
+
+public class Creaet_Lead_TestCase extends Base_Config {
+	
+	@BeforeTest
+	
+	public void setData() {
+		excelfileName="createLead";
+	}
+
+	@Test(dataProvider="inputdata")
+	public void CreateLeads(String uname, String pswd, String cName,String fName,String lName)
+	{
+		
+		new LoginPage()
+		.enterUserName(uname)
+		.enterPassword(Pswd)
+		
+		
+	}
+}

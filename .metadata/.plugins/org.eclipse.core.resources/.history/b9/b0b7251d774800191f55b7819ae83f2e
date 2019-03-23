@@ -1,0 +1,28 @@
+package pages;
+
+import org.openqa.selenium.WebElement;
+
+import base_confiq.Base_Config;
+
+public class ViewLeads extends Base_Config{
+	
+	public ViewLeads() {
+		
+	}
+	
+	
+
+public void  verifyName()
+{
+	String Cname= driver.findElementById("viewLead_companyName_sp").getText();
+	if(Cname.equals(companyName))
+	{
+		System.out.println("Profile Created");
+	}
+	else
+	{
+		System.out.println("Not Created");
+	}
+}
+
+}

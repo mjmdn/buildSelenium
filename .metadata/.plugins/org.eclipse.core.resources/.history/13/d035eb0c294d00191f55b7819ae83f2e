@@ -1,0 +1,19 @@
+package pages;
+
+import base_confiq.Base_Config;
+
+public class Find_Leads extends Base_Config {
+	
+public Find_Leads()
+{
+	
+}
+
+
+public Find_Leads clickEmailTab()
+{
+	driver.findElementByXPath("(//span[@class='x-tab-strip-text '])[3]").click();
+	return new Find_Leads();
+}
+
+}

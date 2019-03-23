@@ -1,0 +1,16 @@
+package practise.java;
+
+public class Variable  {
+	int a= 20;
+	
+	public static void localVariable()
+	{
+		int a= 10;
+		
+	}
+	public static void main(String[] args) {
+		System.out.println(a);
+		
+		 localVariable();
+	}
+}

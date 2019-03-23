@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="learnAttributes" verbose="5">
+  <parameter name="url" value="http://leaftaps.com/opentaps/control/main"></parameter>
+  <parameter name="uname" value="demosalesmanager"></parameter>
+    <parameter name="pswd" value="crmsfa"></parameter>
+    <classes>
+      <class name="week5.day1.Learningtestng.Edit_Lead"/>
+      <class name="week5.day1.Learningtestng.Create_Lead"/>
+      <class name="week5.day1.Learningtestng.Merge_Lead"/>
+    </classes>
+  </test> <!-- learnAttributes -->
+</suite> <!-- Suite -->

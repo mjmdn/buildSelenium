@@ -1,0 +1,7 @@
+package pages;
+
+import base_confiq.Base_Config;
+
+public class LoginPage extends Base_Config {
+
+}

@@ -1,0 +1,28 @@
+package base_confiq;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+
+import com.aventstack.extentreports.ExtentReports;
+
+public class Base_Config {
+	
+	 public ChromeDriver driver;
+	  ExtentReports extent;
+	  public String fileName;
+	    @BeforeMethod @Parameters({"url","uname","pswd"})
+		public void login_Confiquaration(String url,String uname,String pswd)
+		{
+			System.setProperty("webdriver.chrome.driver", "./drivers/Chromedriver/chromedriver.exe");
+			 driver = new ChromeDriver();
+			driver.get(url);
+			WebElement userName=driver.findElementById("username");
+		    userName.sendKeys(uname);
+			driver.findElementById("password").sendKeys(pswd);
+			driver.findElementByClassName("decorativeSubmit").click();
+		}
+		
+
+}

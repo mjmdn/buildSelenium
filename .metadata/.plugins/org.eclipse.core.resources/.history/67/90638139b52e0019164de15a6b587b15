@@ -1,0 +1,14 @@
+package practise.java;
+
+public class Operator_Java {
+	
+	int a =1;
+	
+	public static void main(String[] args) {
+		Operator_Java op= new Operator_Java();
+		
+		a++;
+		System.out.println(a);
+	}
+
+}

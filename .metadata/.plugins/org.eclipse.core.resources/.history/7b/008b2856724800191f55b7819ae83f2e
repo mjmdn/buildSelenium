@@ -1,0 +1,35 @@
+package pages;
+
+import base_confiq.Base_Config;
+
+public class LoginPage extends Base_Config {
+	
+	public LoginPage(){
+		
+	}
+	
+	
+	public LoginPage enterUserName()
+	{
+		driver.findElementById("username").sendKeys("DemoSalesManager");
+		return this;
+	}
+
+	
+	public LoginPage enterPassword()
+	{
+		
+		driver.findElementById("password").sendKeys("crmsfa");
+		return this;
+		
+	}
+	
+	public HomePage clickLoginButton()
+	{
+		driver.findElementByClassName("")
+		
+		return new HomePage();
+		
+	}
+	
+}

@@ -1,0 +1,47 @@
+package pages;
+
+import base_confiq.Base_Config;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.When;
+
+public class Update_Lead extends Base_Config{
+	
+	public Update_Lead() {
+		
+	}
+	
+	
+	public Update_Lead updateCompanyName(String cname)
+	{
+		driver.findElementById("updateLeadForm_companyName").clear();
+		driver.findElementById("updateLeadForm_companyName").sendKeys("TestLeaf");
+		return this;
+	}
+	
+	public Update_Lead enterFirstName(String fName)
+	{
+		driver.findElementById("updateLeadForm_firstName").clear();
+		driver.findElementById("updateLeadForm_firstName").sendKeys("Jishnu Dev");
+		return this;
+	}
+	
+	
+	public Update_Lead enterLastName(String lName)
+	{
+		driver.findElementById("createLeadForm_lastName").sendKeys(lName);
+		return this;
+	}
+	
+	
+	public ViewLeads clickcreateLeadButton()
+	{
+		driver.findElementByName("submitButton").click();
+		return new ViewLeads();
+	}
+
+
+	
+	
+	
+
+}

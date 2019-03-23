@@ -1,0 +1,18 @@
+package pages;
+
+import base_confiq.Base_Config;
+
+public class ViewLeads extends Base_Config{
+	
+	public ViewLeads() {
+		
+	}
+	
+	
+	public CreateLeads CickLeadLink()
+	{
+		driver.findElementByLinkText("Create Lead").click();
+		return new CreateLeads();
+	}
+
+}

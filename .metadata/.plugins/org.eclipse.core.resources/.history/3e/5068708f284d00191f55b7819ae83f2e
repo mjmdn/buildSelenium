@@ -1,0 +1,22 @@
+package pages;
+
+import base_confiq.Base_Config;
+
+public class MyLeads extends Base_Config{
+	
+	public MyLeads() {
+		
+	}
+	
+	
+	public CreateLeads clickCreateLeadLink()
+	{
+		driver.findElementByLinkText("Create Lead").click();
+		return new CreateLeads();
+	}
+
+	
+	public void clickFindLead() {
+		driver.findElementByXPath("(//div[@class='frameSectionBody']//a)[3]").click();
+	}
+}

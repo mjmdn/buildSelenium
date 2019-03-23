@@ -1,0 +1,20 @@
+package pages;
+
+import org.openqa.selenium.WebElement;
+
+import base_confiq.Base_Config;
+
+public class ViewLeads extends Base_Config{
+	
+	public ViewLeads() {
+		
+	}
+	
+	
+public void  verifyName()
+{
+	WebElement Cname= driver.findElementById("viewLead_companyName_sp");
+	System.out.println("Successfull come to View Lead Page");
+}
+
+}

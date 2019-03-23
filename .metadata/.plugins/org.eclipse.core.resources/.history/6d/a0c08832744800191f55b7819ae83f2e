@@ -1,0 +1,36 @@
+package pages;
+
+import base_confiq.Base_Config;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.When;
+
+public class CreateLeads extends Base_Config{
+	
+	public CreateLeads() {
+		
+	}
+	
+	
+	public void enterCompanyName()
+	{
+		driver.findElementById("createLeadForm_companyName").sendKeys(cmpny);
+	}
+	
+	public void enterFirstName()
+	{
+		driver.findElementById("createLeadForm_firstName").sendKeys(fname);
+	}
+	
+	
+	public void enterLastName()
+	{
+		driver.findElementById("createLeadForm_lastName").sendKeys(lname);
+	}
+	@When("click Create Lead button")
+	public void click_createLead_Button()
+	{
+		driver.findElementByName("submitButton").click();
+	}
+	
+
+}

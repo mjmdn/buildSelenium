@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;trainArraylist&apos; in &apos;week3.day2.CR_Learining_List_Set.main(...)&apos; to &apos;getFirstSortlist&apos;&#x0D;&#x0A;- Original project: &apos;Selenium&apos;&#x0D;&#x0A;- Original element: &apos;week3.day2.CR_Learining_List_Set.main(String[]).trainArraylist&apos;&#x0D;&#x0A;- Renamed element: &apos;trainArraylist&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;trainArraylist&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;week3.day2{CR_Learining_List_Set.java[CR_Learining_List_Set~main~\[QString;@trainArraylist!1458!1511!1472!1485!QList\&lt;QInteger;&gt;;!0!false" name="getFirstSortlist" references="true" stamp="1550985831263" version="1.0"/>
+</session>
