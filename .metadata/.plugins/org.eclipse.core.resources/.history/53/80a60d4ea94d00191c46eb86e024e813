@@ -16,7 +16,7 @@ public class Creaet_Lead_TestCase extends Base_Config {
 	@Test(dataProvider="inputdata")
 	public void CreateLeads(String uName, String pswd, String cName,String fName,String lName)
 	{
-		System.out.println("Begin");
+		
 		new LoginPage()
 		.enterUserName(uName)
 		.enterPassword(pswd)

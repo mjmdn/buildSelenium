@@ -19,7 +19,7 @@ public class TC002_CreateLead extends Annotations{
 
 	@Test(dataProvider="fetchData") 
 	public void loginAndLogout(String uName, String pwd,String cname,String Fname,String Lname) {
-		System.out.println("Begining");
+		System.out.println("Test Started");
 		new LoginPage()
 		.enterUserName(uName)
 		.enterPassWord(pwd)

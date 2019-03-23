@@ -2,35 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14404" started-at="2019-03-23T20:02:45Z" finished-at="2019-03-23T20:02:59Z">
+  <suite name="Suite" duration-ms="9938" started-at="2019-03-23T20:20:19Z" finished-at="2019-03-23T20:20:29Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@5ae63ade]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="14404" started-at="2019-03-23T20:02:45Z" finished-at="2019-03-23T20:02:59Z">
+    <test name="Test" duration-ms="9938" started-at="2019-03-23T20:20:19Z" finished-at="2019-03-23T20:20:29Z">
       <class name="runner.Runner">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:runner.Runner@5ae63ade]" name="startReport" is-config="true" duration-ms="1017" started-at="2019-03-23T20:02:44Z" finished-at="2019-03-23T20:02:45Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:runner.Runner@5ae63ade]" name="startReport" is-config="true" duration-ms="1120" started-at="2019-03-23T20:20:18Z" finished-at="2019-03-23T20:20:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:runner.Runner@5ae63ade]" name="setData" is-config="true" duration-ms="1" started-at="2019-03-23T20:02:45Z" finished-at="2019-03-23T20:02:45Z">
+        <test-method status="PASS" signature="setData()[pri:0, instance:runner.Runner@5ae63ade]" name="setData" is-config="true" duration-ms="1" started-at="2019-03-23T20:20:19Z" finished-at="2019-03-23T20:20:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Runner@5ae63ade]" name="setUpClass" is-config="true" duration-ms="255" started-at="2019-03-23T20:02:45Z" finished-at="2019-03-23T20:02:45Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Runner@5ae63ade]" name="setUpClass" is-config="true" duration-ms="303" started-at="2019-03-23T20:20:19Z" finished-at="2019-03-23T20:20:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="report()[pri:0, instance:runner.Runner@5ae63ade]" name="report" is-config="true" duration-ms="22" started-at="2019-03-23T20:02:45Z" finished-at="2019-03-23T20:02:45Z">
+        <test-method status="PASS" signature="report()[pri:0, instance:runner.Runner@5ae63ade]" name="report" is-config="true" duration-ms="23" started-at="2019-03-23T20:20:19Z" finished-at="2019-03-23T20:20:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:runner.Runner@5ae63ade]" name="beforeMethod" is-config="true" duration-ms="11092" started-at="2019-03-23T20:02:45Z" finished-at="2019-03-23T20:02:57Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:runner.Runner@5ae63ade]" name="beforeMethod" is-config="true" duration-ms="7073" started-at="2019-03-23T20:20:19Z" finished-at="2019-03-23T20:20:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@5ae63ade]" name="runScenario" duration-ms="2566" started-at="2019-03-23T20:02:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-23T20:02:59Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@5ae63ade]" name="runScenario" duration-ms="2214" started-at="2019-03-23T20:20:26Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-23T20:20:28Z">
           <params>
             <param index="0">
               <value>
@@ -46,15 +46,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:runner.Runner@5ae63ade]" name="afterMethod" is-config="true" duration-ms="296" started-at="2019-03-23T20:02:59Z" finished-at="2019-03-23T20:02:59Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:runner.Runner@5ae63ade]" name="afterMethod" is-config="true" duration-ms="131" started-at="2019-03-23T20:20:28Z" finished-at="2019-03-23T20:20:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Runner@5ae63ade]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2019-03-23T20:02:59Z" finished-at="2019-03-23T20:02:59Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Runner@5ae63ade]" name="tearDownClass" is-config="true" duration-ms="12" started-at="2019-03-23T20:20:29Z" finished-at="2019-03-23T20:20:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="stopReport()[pri:0, instance:runner.Runner@5ae63ade]" name="stopReport" is-config="true" duration-ms="802" started-at="2019-03-23T20:03:00Z" finished-at="2019-03-23T20:03:00Z">
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:runner.Runner@5ae63ade]" name="stopReport" is-config="true" duration-ms="836" started-at="2019-03-23T20:20:29Z" finished-at="2019-03-23T20:20:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopReport -->
