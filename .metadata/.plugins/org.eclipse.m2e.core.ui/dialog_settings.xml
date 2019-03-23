@@ -28,6 +28,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\SeleniumMDN\POM"/>
 			<item value="C:\Users\rmadhavan\Desktop\POM"/>
 		</list>
 		<list key="projectNameTemplate">
